@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: ocean
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -36,19 +36,19 @@ header:
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: true
+    show_search: false
     highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year} Jeffrey Spaulding.'
+#    license:
+#      enable: true
+#      allow_derivatives: false
+#      share_alike: true
+#      allow_commercial: false
 
 # Localization
 
@@ -94,9 +94,9 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
-    zoom: 15
+    zoom: 7
 
 # Extensions
 
